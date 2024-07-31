@@ -1,0 +1,551 @@
+/* Header */
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.sidebar a{
+    text-decoration: none;
+    color:inherit;
+}
+
+#header {
+    position: relative;
+    width: 1920px;
+    height: 130px;
+    background: rgba(89, 89, 89, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.header_right_block {
+    position: relative;
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header_right_block a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header_right_block span {
+    display: inline-block;
+    margin: 10px;
+}
+
+.header_right_block span:hover {
+    color: #999;
+}
+
+.category_1,
+.category_2,
+.category_3 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 30px;
+    font-weight: bold;
+    align-items: middle;
+}
+
+/* End(Header) */
+.container {
+    display: flex;
+    width: 1920px;
+    height: 950px;
+}
+
+body {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.backgroundImage {
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+/* sidebar */
+.sidebar {
+    display: inline-block;
+    position: relative;
+    width: 380px;
+    height: 950px;
+    background-color: rgba(65, 65, 65, 0.7);
+}
+
+.sidebar_name {
+    display: block;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.sidebar_category {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #000 !important;
+}
+
+.sidebar_category:hover {
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+
+.hr-border {
+    width: 90%;
+    height: 2.5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 30px;
+}
+
+.hr-sidebar {
+    width: auto;
+    margin-right: 6%;
+    height: 2.5px;
+    margin-top: 10px;
+    background-color: rgba(43, 43, 43, 0.4);
+    border: none;
+    border-radius: 5px;
+}
+
+.resign {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+.resign:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+/* sidebar End */
+
+
+
+
+
+
+
+
+
+
+
+
+.main_container {
+    display: block;
+    width: 1540px;
+    height: 950px;
+    background: rgba(65, 65, 65, 0.17);
+    mix-blend-mode: normal;
+}
+
+.main_container_name {
+    display: block;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgba(30, 30, 30, 0.7);
+    padding-top: 20px;
+
+}
+
+
+.hr_name {
+    display: block;
+    width: auto;
+    margin-right: 60px;
+    height: 2.5px;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgba(43, 43, 43, 0.4);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.main_form {
+    display: block;
+    width: 1460px;
+    height: 740px;
+    margin-left: 20px;
+    background-color: rgba(43, 43, 43, 0.17);
+    padding-top: 40px;
+}
+
+.container_class {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    width: 1420px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_name {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.add {
+    margin-right: 20px;
+    font-size: 20px;
+
+}
+
+.hr_vertical {
+    display: inline-block;
+    width: 2.5px;
+    height: 160px;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-color: rgba(43, 43, 43, 0.4);
+    border: none;
+    border-radius: 5px;
+}
+
+.user_class {
+    padding-left: 5px;
+    display: block;
+    width: 130px;
+    padding-top: 30px;
+}
+
+.user_bedge {
+    margin-left: 19px;
+    display: block;
+}
+
+.name_bedge {
+    display: block;
+    font-size: 40px;
+    width: 130px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.user_running {
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+
+    width: 260px;
+}
+
+.user_distance {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.container_class_info {
+    position: absolute;
+    margin-top: 0px;
+    display: flex;
+    height: 50px;
+    width: 1000px;
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: st;
+}
+
+.class_info_name {
+    text-align: start;
+    font-size:25px;
+}
+.class_info_info{
+    font-size:15px !important;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.third {
+    display: inline-block;
+    height: 180px;
+    width: 1010px;
+}
+
+.fourth {
+    display: flex;
+    height: 180px;
+    width: 400px
+}
+
+.class_info {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 130px;
+    width: 1010px;
+    margin-top: 50px;
+}
+
+.bedge {
+    display: inline-block;
+    width: 91px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.bedge_info {
+    display: inline-block;
+    width: 140px;
+    align-items: center;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 20px
+}
+
+.running_board {
+    width: 1420px;
+    height: 310px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mypage_user_text{
+    display:flex;
+    margin-top:20px;
+    align-items: center;
+}
+input{
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 20px;
+    background-color: none; 
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    height:30px;
+}
+.mypage_user_input_address{
+    display:block;
+    width:1000px;
+    margin-left:10px;
+}
+.main_form label{
+    text-align: center;
+    display:block;
+    width:155px;
+    font-size:20px;
+    color:rgba(0,0,0,0.7);
+
+}
+
+.form_name{
+    font-size:30px;
+}
+
+.hr_user{
+    width: 1420px;
+    height: 2.5px;
+    background-color: rgba(67, 67, 67, 0.7);
+    border: none;
+    border-radius: 30px;
+}
+.save{
+    position:absolute;
+    font-size: 25px;
+    width:150px;
+    border:none;
+    margin-right:30px;
+    border-radius:5px;
+    background-color: rgba(0,0,0,0.0);
+}
+.save:hover{
+    background: rgba(67,67,67,0.4);
+}   
+.save:active{
+    background-color: rgba(255,255,255,0.6);
+}
+
+.user_crew{
+    display:block;
+    width:140px;
+    padding-left:5px;
+    height:180px;
+    
+    align-items: center;
+}
+.user_crew_list{
+    display:inline-block;
+    width:1280px;
+}
+.crew_mark{
+    width:91px;
+    height:91px;
+    border-radius: 30px;
+    margin-left:23px;
+    margin-top:25px;
+}
+
+.name_crew{
+    display:block;
+    text-align:center;
+    margin-top:10px;
+    font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+#footer {
+    position: relative;
+    width: 1920px;
+    height: 350px;
+    background: rgba(255, 255, 255, 1);
+    z-index: 1
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1680px;
+    height: 350px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.footer_container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#footer_logo {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.footer_information {
+    display: block;
+    height: 35px;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 20px;
+    align-items: center;
+}
+
+.footer_bedge {
+    margin-top: 18px;
+    margin-right: 29px;
+}
+
+.footer_border_line {
+    border-left: thick solid rgba(0, 0, 0, 0.5);
+    margin-left: 95px;
+    border-radius: 30px;
+    height: 280px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.footer_right_block {
+    position: relative;
+    width: 1255px;
+    height: 350px;
+}
+
+.footer_right_block_category {
+    display: flex;
+    width: 709px;
+    margin-left: 283px;
+    margin-top: 80px;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    white-space: nowrap;
+}
+
+.category_name_course {
+    display: inline-block;
+    width: 83px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.category_name_cummunity {
+    display: inline-block;
+    width: 114px;
+    margin-left: 201px;
+    font-size: 30px;
+    margin-left: 227px;
+    font-weight: bold;
+}
+
+.category_name_mypage {
+    display: inline-block;
+    width: 137px;
+    margin-left: 169px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 169px;
+}
+
+.category_each {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.category_name_course span:hover {
+    color: #000;
+}
+
+.category_name_cummunity span:hover {
+    color: #000;
+}
+
+.category_name_mypage span:hover {
+    color: #000;
+}
+
+.footer_logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+}

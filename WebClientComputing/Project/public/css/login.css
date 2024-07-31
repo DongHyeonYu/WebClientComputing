@@ -1,0 +1,327 @@
+/* Header */
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(65, 65, 65, 0.9);
+}
+
+.main {
+    display: flex;
+    width: 445px;
+    height: 100px;
+    margin-left: 732px;
+    align-items: flex-end;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container_login {
+    margin-left: 732px;
+    width: 455px;
+    height: 540px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 30px;
+}
+
+.container_input {
+    display: inline-block;
+    width: 415px;
+    height: 145px;
+    margin-top: 70px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.idpw_text {
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+    height: 30px;
+}
+.input_css{
+    margin-top: 20px;
+}
+
+
+input {
+    display: inline-block;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 20px;
+    background-color: none; 
+    border: none;
+    border-radius: 5px;
+}
+
+hr {
+    width: 330px;
+    height: 1px;
+    margin-left: 35px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+.find {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.find_text {
+    font-size: 10px;
+    margin-right: 5px;
+    font-size: 15px;
+
+}
+
+.find_text1 {
+    margin-right: 35px;
+    font-size: 15px;
+
+}
+
+.find span:hover {
+    color: #999;
+}
+
+.VL {
+    border-left: thick solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    height: 15px;
+    margin-right: 5px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+button {
+    background-color: rgba(67, 67, 67, 0.7);
+    margin-left: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    width: 415px;
+    height: 50px;
+}
+
+button:hover {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+    background-color: #999;
+}
+
+.container_join {
+    margin-left: 732px;
+    margin-top:5px;
+
+    width: 455px;
+    height: 950px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 30px;
+
+}
+.space{
+    height:20px;
+}
+.term{
+    width:415px;
+    height:250px;
+    margin-left:20px;
+    margin-bottom:20px;
+
+    
+}
+.term_text{
+    display:block;
+    font-size:20px;
+}
+.term_container{
+    margin-top:5px;
+    width:415px;
+    height:200px;
+    background-color:#fff;
+    border-radius:5px;
+}
+.agree{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height:35px;
+
+}
+.button_agree{
+    width:15px;
+    height:15px;
+    border-radius: 3px;
+}
+.agree_text{
+    height:15px;
+    font-size: 15px;
+    margin-left:10px;
+    margin-right:20px;
+}
+.next{
+    margin-top:45px;
+}
+.container_join_id{
+    margin-left:20px;
+    margin-right:20px;
+    width:415px;
+    height:65px;
+}
+.join_text{
+    font-size:20px;
+
+}
+.join_input2{
+    width:405px;
+}
+.information_pw{
+    display:block;
+    margin-top:10px;
+
+    margin-left:20px;
+    margin-right:20px;
+    font-size: 15px;
+}
+.border_line{
+    color: thick solid rgba(0, 0, 0, 0.5);
+    width: 415px;
+    height: 1px;
+    margin-top:10px;
+
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.container_name{
+    width:415px;
+    height:37px;
+    margin-top:15px;
+    margin-left:20px;
+    margin-right:20px;
+
+
+}
+.text_name{
+    display:inline-block;
+    font-size:20px;
+    vertical-align: middle;
+    align-items: center;
+    width:40px;
+    height:30px;
+}
+
+.join_name{
+    display:inline-block;
+    width:358px;
+    height:35px;
+}
+.container_address{
+    width:415px;
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.text_address{
+    display:inline-block;
+    font-size:20px;
+    vertical-align: middle;
+    align-items: center;
+    width:40px;
+    height:30px;
+}
+.join_address{
+    margin-top:5px;
+    width:405px;
+    height:35px;
+}
+ 
+#join_phone{
+    height:35px;
+    width:320px;
+}
+.container_phone{
+    width:415px;
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.text_phone{
+    display:inline-block;
+    font-size:20px;
+    vertical-align: middle;
+    align-items: center;
+    width:auto;
+    height:30px;
+}
+.conatainer_choice{
+    width:415px;
+    margin-left:20px;
+    margin-right:20px;
+    
+}
+.text_choice{
+    display:block;
+    font-size:20px;
+}
+.text_hwa{
+    display:block;
+    margin:10px;
+    font-size:20px;
+    margin-right:5px;
+}
+.join_input{
+    display:inline-block;
+    height:35px;
+    width:405px;
+}
+
+.text_choice_info{
+    display:block;
+    margin-left:10px;
+    margin-top:10px;
+    
+}
+.submit {
+    background-color: rgba(67, 67, 67, 0.7);
+    margin-top:70px;
+    margin-left: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    width: 415px;
+    height: 50px;
+}
+
+.submit:hover {
+    outline: none;
+    /* 포커스 표시 제거 */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    /* 포커스 효과 추가 */
+}
+.submit:active {
+    background-color: #999;
+}
+

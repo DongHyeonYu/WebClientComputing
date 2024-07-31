@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="main">LOGIN</div>
+    <div class="container_login">
+        <form method="POST" action="http://localhost:5500/process/login">
+            <div class="container_input">
+                <div class="ID">
+                    <span class="idpw_text">ID</span>
+                    <input type="text" class="input_css" name="input_ID" placeholder="입력하세요">
+                    <hr>
+                </div>
+                <div class="PW">
+                    <span class="idpw_text">PW</span>
+                    <input type="password" class="input_css" name="input_PW" placeholder="입력하세요">
+                    <hr>
+                </div>
+            </div>
+            <div class="find">
+                <a href="../public/find_id.html">
+                    <span class="find_text">ID찾기</span>
+                </a>
+                <div class="VL"></div>
+                <a href="../public/find_pw.html">
+                    <span class="find_text">PW찾기</span>
+                </a>
+                <div class="VL"></div>
+                <a href="../public/allowterm.html">
+                    <span class="find_text1">회원가입</span>
+                </a>
+            </div>
+            <div class="button_login">
+                <button type ="submit">로그인</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/loginPage.js"></script>
+</body>
+</html> 

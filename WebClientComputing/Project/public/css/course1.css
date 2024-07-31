@@ -1,0 +1,456 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#header {
+    position: relative;
+    width: 1920px;
+    height: 130px;
+    background: rgba(89, 89, 89, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.header_right_block {
+    position: relative;
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header_right_block a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header_right_block span {
+    display: inline-block;
+    margin: 10px;
+}
+
+.header_right_block span:hover {
+    color: #999;
+}
+
+
+.category_1,
+.category_2,
+.category_3 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 30px;
+    font-weight: bold;
+    align-items: middle;
+}
+
+#body {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+
+
+/* Main */
+#main {
+    position: relative;
+    width: 1920px;
+    height: 950px;
+    background: rgba(101, 101, 101, 0.68);
+    mix-blend-mode: normal;
+}
+
+.backgroundImage {
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -1;
+    /* 화면 뒤쪽으로 이동 */
+}
+
+
+body {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+/* sidebar */
+.sidebar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar {
+    display: inline-block;
+    position: relative;
+    width: 380px;
+    height: 950px;
+    background-color: rgba(65, 65, 65, 0.7);
+}
+
+.sidebar_name {
+    display: block;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.sidebar_category {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #000 !important;
+}
+
+.sidebar_category:hover {
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+
+.hr-border {
+    width: 90%;
+    height: 2.5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 30px;
+}
+
+.hr-sidebar {
+    width: auto;
+    margin-right: 6%;
+    height: 2.5px;
+    margin-top: 10px;
+    background-color: rgba(43, 43, 43, 0.4);
+    border: none;
+    border-radius: 5px;
+}
+
+.resign {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.resign:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* sidebar End */
+
+
+
+
+
+/* Footer */
+#footer {
+    position: relative;
+    width: 1920px;
+    height: 350px;
+    background: rgba(255, 255, 255, 1);
+    z-index: 1
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1680px;
+    height: 350px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.footer_container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#footer_logo {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.footer_information {
+    display: block;
+    height: 35px;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 20px;
+    align-items: center;
+}
+
+.footer_bedge {
+    margin-top: 18px;
+    margin-right: 29px;
+}
+
+.footer_border_line {
+    border-left: thick solid rgba(0, 0, 0, 0.5);
+    margin-left: 95px;
+    border-radius: 30px;
+    height: 280px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.footer_right_block {
+    position: relative;
+    width: 1255px;
+    height: 350px;
+}
+
+.footer_right_block_category {
+    display: flex;
+    width: 709px;
+    margin-left: 283px;
+    margin-top: 80px;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    white-space: nowrap;
+}
+
+.category_name_course {
+    display: inline-block;
+    width: 83px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.category_name_cummunity {
+    display: inline-block;
+    width: 114px;
+    margin-left: 201px;
+    font-size: 30px;
+    margin-left: 227px;
+    font-weight: bold;
+}
+
+.category_name_mypage {
+    display: inline-block;
+    width: 137px;
+    margin-left: 169px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 169px;
+}
+
+.category_each {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.category_name_course span:hover {
+    color: #000;
+}
+
+.category_name_cummunity span:hover {
+    color: #000;
+}
+
+.category_name_mypage span:hover {
+    color: #000;
+}
+
+.footer_logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+
+}
+
+
+.container {
+    display: flex;
+}
+
+.container_main {
+    width: 1540px;
+    height: 950px;
+}
+
+.main_container_name {
+    display: block;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgba(30, 30, 30, 0.7);
+    padding-top: 20px;
+
+}
+
+.hr_name {
+    display: block;
+    width: auto;
+    margin-right: 60px;
+    height: 2.5px;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgba(43, 43, 43, 0.4);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+/* LINETEST */
+.dot {
+    overflow: hidden;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/mini_circle.png');
+}
+
+.dotOverlay {
+    position: relative;
+    bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #ddd;
+    float: left;
+    font-size: 25px;
+    padding: 5px;
+    background: #fff;
+}
+
+.dotOverlay:nth-of-type(n) {
+    border: 0;
+    box-shadow: 0px 1px 2px #888;
+}
+
+.number {
+    font-weight: bold;
+    color: #ee6152;
+}
+
+.dotOverlay:after {
+    content: '';
+    position: absolute;
+    margin-left: -6px;
+    left: 50%;
+    bottom: -8px;
+    width: 11px;
+    height: 8px;
+    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white_small.png')
+}
+
+.distanceInfo {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    list-style: none;
+    margin: 0;
+}
+
+.distanceInfo .label {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.distanceInfo:after {
+    content: none;
+}
+
+#num_page{
+    display:flex;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    justify-content: center;
+}
+button {
+    font-size: 25px;
+    width: 40px;
+    height:25px;
+    font-size:20px;
+    border: none;
+    margin-top:10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+button:hover{
+    background: rgba(67,67,67,0.4);
+}   
+button:active{
+    background-color: rgba(255,255,255,0.6);
+}
+
+
+#kakaoMaps2 {
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    margin-left: 20px;
+    top: 20px;
+}
+
+.container_map2 {
+    position: relative;
+    width: 1480px;
+    height: 440px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgba(217, 217, 217, 0.7);
+}
+#course_list{
+    position: relative;
+    margin-top:20px;
+    margin-left:20px;
+    width: 1480px;
+    height: 300px;
+    background-color: rgba(217, 217, 217, 0.7);
+
+}
+table {
+    margin-left:20px;
+    width: 95%;
+    border-collapse: collapse;
+    background-color: none;
+}
+th, td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color:none;
+    text-align: center;
+
+}
+tr{
+    border-bottom:1px solid;
+    border-radius: 5px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원 정보 수정</title>
+    <link rel="stylesheet" href="css/mypage.css">
+</head>
+
+<body>
+    <image src="./image/background2.png" class="backgroundImage"></image>
+    <div id="header">
+        <!--로고-->
+        <a href="http://localhost:5500/main">
+            <img class="logo" src="./image/logo.png">
+        </a>
+        <!--카테고리 -->
+        <div class="header_right_block">
+            <a href="./course1.html">
+                <span class="category_1">코스</span>
+            </a>
+            <a href="./board1.html">
+                <span class="category_2">커뮤니티</span>
+            </a>
+            <a href="./mypage_user.html">
+                <span class="category_3">마이페이지</span>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <label class="sidebar_name">마이페이지</label>
+            <hr class="hr-border">
+            <ul>
+                <li class="sidebar_category">
+                    <a href="./mypage_user.html" class="deco">회원 정보 수정</a>
+                </li>
+                <hr class="hr-sidebar">
+                <li class="sidebar_category">
+                    <a href="./mypage_running.html">나의 러닝 기록 관리</a>
+                </li>
+                <hr class="hr-sidebar">
+                <li class="sidebar_category">
+                    <a href="./mypage_crew.html">크루 관리</a>
+                </li>
+                <hr class="hr-sidebar">
+            </ul>
+            <label class="resign">탈퇴하기</label>
+        </div>
+        <div class="main_container">
+            <label class="main_container_name">회원 정보 수정</label>
+            <hr class="hr_name">
+            <div class="main_form">
+                <div class="mypage_user_text">
+                    <label>비밀 번호 변경</label>
+                    <input type="text">
+                </div>
+                <hr class="hr_user">
+                <div class="mypage_user_text">
+                    <label>비밀 번호 확인</label>
+                    <input type="text">
+                </div>
+                <hr class="hr_user">
+                <div class="mypage_user_text">
+                    <label>휴대 전화</label>
+                    <input type="text">
+                </div>
+                <hr class="hr_user">
+                <div class="mypage_user_text">
+                    <label>주소</label>
+                    <input type="text" class="mypage_user_input">
+                    <input type="text" class="mypage_user_input_address">
+                </div>
+                <hr class="hr_user">
+                <div class="mypage_user_text">
+                    <label>이메일</label>
+                    <input type="text">
+                </div>
+                <hr class="hr_user">
+                <div style="margin-top:60px;"></div>
+                <span class="sidebar_name">선택입력</span>
+                <hr class="hr_user">
+
+                <div class="mypage_user_text">
+                    <label>신장</label>
+                    <input type="text"> 
+                </div>
+                <hr class="hr_user">
+                <div class="mypage_user_text">
+                    <label>성별</label>
+                    <input type="text">
+                </div>
+                <hr class="hr_user">
+                <div class="mypage_user_text">
+                    <label>체중</label>
+                    <input type="text">
+                </div>
+                <hr class="hr_user">
+                <div style="margin-top:80px;"></div>
+                <div style="display:flex; justify-content: flex-end;">
+                    <button type="submit" class="save">저장하기</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer_container">
+            <div class="footer_left_block">
+                <img id=footer_logo src="./image/logo.png">
+                <span class="footer_information">02707 서울특별시 성북구 정릉로 77</span>
+                <span class="footer_information">(소프트웨어학부)유동현</span>
+                <span class="footer_information">ydh91026@kookmin.ac.kr</span>
+                <a href="https://github.com/DongHyeonYu">
+                    <img class="footer_bedge" src="./image/footer1.png">
+                </a>
+                <a href="https://www.instagram.com/_u_dong__/">
+                    <img class="footer_bedge" src="./image/footer2.png">
+                </a>
+                <a href="">
+                    <img class="footer_bedge" src="./image/footer3.png">
+                </a>
+            </div>
+            <div class="footer_border_line"></div>
+            <div class="footer_right_block">
+                <div class="footer_right_block_category">
+                    <div class="category_name_course">코스
+                        <br>
+                        <a href="./course1.html">
+                            <span class="category_each">코스 추천</span>
+                        </a>
+                        <br>
+                        <a href="./course2.html">
+                            <span class="category_each">코스 등록</span>
+                        </a>
+                    </div>
+                    <div class="category_name_cummunity">커뮤니티
+                        <br>
+                        <a href="./board1.html">
+                            <span class="category_each">함께 달려요</span>
+                        </a>
+                        <br>
+                        <a href="./board2.html">
+                            <span class="category_each">크루</span>
+                        </a>
+                    </div>
+                    <div class="category_name_mypage">마이페이지 <br>
+                        <a href="./mypage_user.html">
+                            <span class="category_each">회원 정보 수정</span>
+                        </a>
+                        <br>
+                        <a href="./mypage_running.html">
+                            <span class="category_each">나의 기록 관리</span>
+                        </a>
+                        <br>
+                        <a href="./mypage_crew.html">
+                            <span class="category_each">크루관리</span>
+                        </a>
+                        <img class="footer_logo" src="./image/footer_logo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/mypage_user.js"></script>
+</body>
+
+</html>

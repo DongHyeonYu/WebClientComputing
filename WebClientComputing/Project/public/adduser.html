@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="main">회원가입</div>
+    <div class="container_join">
+        <form method="POST" action="http://localhost:5500/process/adduser">
+            <div class="space"></div>
+            
+            <div class="container_join_id">
+                <label for="id" class="join_text">ID</label><br>
+                <input type="text" id="id" class="join_input" name="id" placeholder="입력하세요">
+            </div>
+            <div class="container_join_id">
+                <label for="pw" class="join_text">PW</label><br>
+                <input type="password" id="pw" class="join_input" name="pw" placeholder="입력하세요">
+            </div>
+            <div class="container_join_id">
+                <label for="pw_check" class="join_text">PW 확인</label><br>
+                <input type="password" id="pw_check" class="join_input" name="pw_check" placeholder="입력하세요">
+            </div>
+            <span class="information_pw">PW는 영문, 숫자, 특수문자 중 2종류 이상을 조합하여 10자리 이상 최대 13자리 이하의 길이로 구성</span>
+            <hr class="border_line">
+            <div class="container_name">
+                <label for="name" class="text_name">이름</label>
+                <input type="text" id="name" class="join_name" name="name">
+            </div>
+            <div class="container_address">
+                <label for="join_address1" class="text_address">주소</label>
+                <input type="text" id="join_address1" class="join_address" name="join_address1">
+                <input type="text" id="join_address2" class="join_address" name="join_address2">
+            </div>
+            <div class="container_phone">
+                <label for="join_phone" class="text_phone">휴대전화</label>
+                <input type="text" id="join_phone" name="phone">
+            </div>
+            <hr class="border_line">
+            <div class="conatainer_choice">
+                <span class="text_choice">선택 입력 사항</span>
+                <label for="join_height" class="text_hwa">신장</label>
+                <input type="text" class="join_input" name="height">
+                <label for="join_weight" class="text_hwa">체중</label>
+                <input type="text" class="join_input" name="weight">
+                <label for="join_age" class="text_hwa">나이</label>
+                <input type="text" class="join_input" name="age">
+            </div>
+            <span class="text_choice_info">※선택 입력 사항은 코스 추천시 사용되며 타인에게 공개되지 않습니다</span>
+            <input class="submit" type="submit" value="회원가입">
+        </form>
+    </div>
+</body>
+</html>

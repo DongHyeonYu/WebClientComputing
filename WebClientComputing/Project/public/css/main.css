@@ -1,0 +1,462 @@
+/* Header */
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#header {
+    position: relative;
+    width: 1920px;
+    height: 130px;
+    background: rgba(89, 89, 89, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.header_right_block {
+    position: relative;
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header_right_block a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header_right_block span {
+    display: inline-block;
+    margin: 10px;
+}
+
+.header_right_block span:hover {
+    color: #999;
+}
+
+
+.category_1,
+.category_2,
+.category_3 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 30px;
+    font-weight: bold;
+    align-items: middle;
+}
+
+#body {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+/* Footer */
+#footer {
+    position: relative;
+    width: 1920px;
+    height: 350px;
+    background: rgba(255, 255, 255, 1);
+}
+
+/* Main */
+#main {
+    position: relative;
+    width: 1920px;
+    height: 950px;
+    background: rgba(101, 101, 101, 0.68);
+    mix-blend-mode: normal;
+}
+
+.backgroundImage {
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -1;
+    /* 화면 뒤쪽으로 이동 */
+}
+
+
+#map {
+    position: absolute;
+    width: 900px;
+    height: 870px;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: rgba(217, 217, 217, 0.7);
+}
+
+#kakaoMaps {
+    display: none;
+    width: 860px;
+    height: 830px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#need_to_login {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+
+
+}
+
+#user {
+    position: absolute;
+    width: 880px;
+    height: 190px;
+    left: calc(50% - 880px/2 + 480px);
+    top: calc(50% - 190px/2 - 340px);
+    background: rgba(101, 101, 101, 0.17);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+
+#user_container {
+    display: inline-block;
+    width: 880px;
+    height: 190px;
+    width: 807px;
+    height: 91px;
+}
+
+#user_information {
+    display: inline-block;
+    width: 807px;
+    height: 190px;
+    margin-left: 40px;
+    background: rgba(67, 67, 67, 0.17);
+}
+
+.si {
+    display: inline-block;
+    text-align: center;
+    width: 700px;
+    height: 70px;
+    align-items: center;
+    font-size: 40px;
+    margin-left: 11%;
+    margin-top: 5%;
+    border-radius: 15px;
+    border: block;
+    background-color: rgba(120, 120, 120, 0.5);
+}
+
+.si:hover {
+    background-color: #64646480;
+}
+
+.si:active {
+    background-color: rgba(120, 120, 120, 0.5);
+}
+
+#button_login {
+    display: none;
+    text-align: center;
+    width: 700px;
+    height: 70px;
+    align-items: center;
+    font-size: 40px;
+    margin-left: 11%;
+    margin-top: 5%;
+    border-radius: 15px;
+    border: None;
+    background-color: rgba(120, 120, 120, 0.5);
+}
+
+#button_login:hover {
+    background-color: #64646480;
+}
+
+#button_login:active {
+    background-color: rgba(120, 120, 120, 0.5);
+}
+
+
+#button_logout {
+    display: none;
+    text-align: center;
+    width: 700px;
+    height: 70px;
+    align-items: center;
+    font-size: 40px;
+    margin-left: 11%;
+    margin-top: 5%;
+    border-radius: 15px;
+    border: None;
+    background-color: rgba(120, 120, 120, 0.5);
+}
+
+#button_logout:hover {
+    background-color: #64646480;
+}
+
+#button_logout:active {
+    background-color: rgba(120, 120, 120, 0.5);
+}
+
+#board_1 {
+    position: absolute;
+    width: 430px;
+    height: 650px;
+    left: 1000px;
+    top: 260px;
+    background: rgba(101, 101, 101, 0.17);
+}
+
+
+#board_2 {
+    position: absolute;
+    width: 430px;
+    height: 650px;
+    left: 1450px;
+    top: 260px;
+    background: rgba(101, 101, 101, 0.17);
+}
+
+.board_container {
+    display: inline-block;
+    width: 370px;
+    height: 574px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.board {
+    display: flex;
+    width: 370px;
+    height: 68px;
+}
+
+#board_bedge_1 {
+    display: block;
+    width: 47px;
+    height: 47px;
+    background-image: url("../image/board1.png");
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.board_name {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    font-size: 40px;
+    margin-left: 10px;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#board_bedge_2 {
+    display: block;
+    width: 47px;
+    height: 47px;
+    background-image: url("../image/board2.png");
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.border_board {
+    position: relative;
+    width: 370px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Footer */
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1680px;
+    height: 350px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.footer_container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#footer_logo {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.footer_information {
+    display: block;
+    height: 35px;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 20px;
+    align-items: center;
+}
+
+.footer_bedge {
+    margin-top: 18px;
+    margin-right: 29px;
+}
+
+.footer_border_line {
+    border-left: thick solid rgba(0, 0, 0, 0.5);
+    margin-left: 95px;
+    border-radius: 30px;
+    height: 280px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.footer_right_block {
+    position: relative;
+    width: 1255px;
+    height: 350px;
+}
+
+.footer_right_block_category {
+    display: flex;
+    width: 709px;
+    margin-left: 283px;
+    margin-top: 80px;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    white-space: nowrap;
+}
+
+.category_name_course {
+    display: inline-block;
+    width: 83px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.category_name_cummunity {
+    display: inline-block;
+    width: 114px;
+    margin-left: 201px;
+    font-size: 30px;
+    margin-left: 227px;
+    font-weight: bold;
+}
+
+.category_name_mypage {
+    display: inline-block;
+    width: 137px;
+    margin-left: 169px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 169px;
+}
+
+.category_each {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.category_name_course span:hover {
+    color: #000;
+}
+
+.category_name_cummunity span:hover {
+    color: #000;
+}
+
+.category_name_mypage span:hover {
+    color: #000;
+}
+
+.footer_logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+
+}
+
+
+
+/* LINETEST */
+.dot {
+    overflow: hidden;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/mini_circle.png');
+}
+
+.dotOverlay {
+    position: relative;
+    bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #ddd;
+    float: left;
+    font-size: 12px;
+    padding: 5px;
+    background: #fff;
+}
+
+.dotOverlay:nth-of-type(n) {
+    border: 0;
+    box-shadow: 0px 1px 2px #888;
+}
+
+.number {
+    font-weight: bold;
+    color: #ee6152;
+}
+
+.dotOverlay:after {
+    content: '';
+    position: absolute;
+    margin-left: -6px;
+    left: 50%;
+    bottom: -8px;
+    width: 11px;
+    height: 8px;
+    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white_small.png')
+}
+
+.distanceInfo {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    list-style: none;
+    margin: 0;
+}
+
+.distanceInfo .label {
+    display: inline-block;
+    width: 50px;
+}
+
+.distanceInfo:after {
+    content: none;
+}
